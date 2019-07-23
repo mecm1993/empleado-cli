@@ -1,0 +1,33 @@
+{
+  "name": "empleado-cli",
+  "version": "1.0.0",
+  "description": "CLI of emplea.do",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "test": "echo \"No test specified\""
+  },
+  "bin": {
+    "emplea": "./index.js"
+  },
+  "author": "Manuel Cepeda <mecm1993@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-table3": "^0.5.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.3",
+    "minimist": "^1.2.0",
+    "node-fetch": "^2.6.0",
+    "np": "^5.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-google": "^0.13.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
