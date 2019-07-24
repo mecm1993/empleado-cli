@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "CLI of emplea.do",
   "main": "index.js",
+  "keywords": [
+    "empleado",
+    "jobs",
+    "cli",
+    "shell",
+    "console",
+    "terminal"
+  ],
   "scripts": {
     "start": "node index.js",
     "lint": "eslint .",
@@ -13,6 +21,11 @@
   },
   "author": "Manuel Cepeda <mecm1993@gmail.com>",
   "license": "MIT",
+  "bugs": "https://github.com/mecm1993/empleado-cli/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mecm1993/empleado-cli"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "cli-table3": "^0.5.1",

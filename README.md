@@ -29,7 +29,7 @@ $ emplea [options] [arguments]
 |-s, --size     |the size of the job list          |
 |-p, --page     |the page                          |
 
-## Example
+## Examples
 
 ```bash
 # Find the latest 5 jobs in the list
