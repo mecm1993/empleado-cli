@@ -1,10 +1,9 @@
 {
   "name": "empleado-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI of emplea.do",
   "main": "index.js",
   "keywords": [
-    "empleado",
     "jobs",
     "cli",
     "shell",
