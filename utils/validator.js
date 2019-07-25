@@ -33,7 +33,7 @@ module.exports = {
       console.log('  -p, --page                   the pagination page');
       console.log('  -s, --size                   the size of the job list');
       console.log('');
-      console.log('Documentation can be found at <>');
+      console.log('Documentation can be found at <https://mecm1993.github.io/empleado-cli/>');
       _values = undefined;
     }
 

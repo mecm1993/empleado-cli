@@ -63,4 +63,4 @@ $ emplea -s 3 -c WEB
 <img src="https://i.ibb.co/QfMKbMF/example-2.png" alt="Find the latest 3 jobs from the category WEB">
 
 
-<div align=center>With ❤️ from 🌴</div>
+<p align="center">With ❤️ from 🌴</p>
