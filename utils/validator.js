@@ -27,7 +27,7 @@ module.exports = {
       console.log('Usage: emplea [options] [arguments]');
       console.log('');
       console.log('Options:');
-      console.log('  -c, --category               the job category to filter the job list, the arguments');
+      console.log('  -c, --category               the category of the jobs, currently available');
       console.log('                               MOBILE, SOFTWARE, SYSADMIN, TELNET, WEB');
       console.log('  -h, --help                   print emplea command line options');
       console.log('  -p, --page                   the pagination page');

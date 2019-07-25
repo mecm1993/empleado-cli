@@ -1,14 +1,11 @@
 # empleado-cli
 
-[![GitHub release](https://img.shields.io/github/release/mecm1993/empleado-cli.svg)](https://github.com/mecm1993/empleado-cli/releases/)
 [![Downloads](https://img.shields.io/npm/dt/empleado-cli.svg)](https://www.npmjs.com/packages/empleado-cli)
 [![Version](https://img.shields.io/npm/v/empleado-cli.svg)](https://www.npmjs.com/packages/empleado-cli)
-[![GitHub license](https://img.shields.io/github/license/mecm1993/empleado-cli.svg)](https://github.com/mecm1993/empleado-cli/blob/developer/LICENSE.md)
 
+For those whom do not like to leave the terminal you can find the jobs posted in [emplea.do](https://emplea.do) which is a Dominican site to find jobs related to Informatics (in most of the casess 😅😆).
 
-For those whom do not like to leave the terminal you can find the jobs posted in [emplea.do](https://emplea.do).
-
-## Installation
+## Installation 💻
 
 ```bash
 $ npm install -g empleado-cli
@@ -16,22 +13,22 @@ $ npm install -g empleado-cli
 $ yarn global add empleado-cli
 ```
 
-## Usage
+## Usage 🚀
 
 ```bash
 $ emplea [options] [arguments]
 ```
 
-## Options
+### Options
 
 |Option         |Description            |
 |---------------|-----------------------|
-|-c, --category |the category of the jobs, currently categories available `MOBILE`, `SOFTWARE`, `SYSADMIN`, `TELNET`, `WEB` | 
+|-c, --category |the category of the jobs, currently available `MOBILE`, `SOFTWARE`, `SYSADMIN`, `TELNET`, `WEB` | 
 |-h, --help     |print emplea command line options |
 |-s, --size     |the size of the job list          |
-|-p, --page     |the page                          |
+|-p, --page     |the pagination page               |
 
-## Examples
+## Examples 💥
 
 ```bash
 # Find the latest 5 jobs in the list
