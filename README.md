@@ -3,7 +3,7 @@
 [![Downloads](https://img.shields.io/npm/dt/empleado-cli.svg)](https://www.npmjs.com/packages/empleado-cli)
 [![Version](https://img.shields.io/npm/v/empleado-cli.svg)](https://www.npmjs.com/packages/empleado-cli)
 
-For those whom do not like to leave the terminal you can find the jobs posted in [emplea.do](https://emplea.do) which is a Dominican site to find jobs related to Informatics (in most of the casess 😅😆).
+For those whom do not like to leave the terminal you can find the jobs posted in [emplea.do](https://emplea.do) which is a Dominican site to find jobs related to Informatics (in most of the cases 😅😆).
 
 ## Installation 💻
 
