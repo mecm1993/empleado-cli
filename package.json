@@ -1,11 +1,19 @@
 {
   "name": "empleado-cli",
-  "version": "1.0.0",
-  "description": "CLI of emplea.do",
+  "version": "1.0.3",
+  "description": "Find the latest jobs posted in emplea.do from the comfort of your terminal",
   "main": "index.js",
+  "keywords": [
+    "jobs",
+    "cli",
+    "shell",
+    "console",
+    "terminal"
+  ],
   "scripts": {
     "start": "node index.js",
     "lint": "eslint .",
+    "release": "np",
     "test": "echo \"No test specified\""
   },
   "bin": {
@@ -13,18 +21,23 @@
   },
   "author": "Manuel Cepeda <mecm1993@gmail.com>",
   "license": "MIT",
+  "bugs": "https://github.com/mecm1993/empleado-cli/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mecm1993/empleado-cli"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "cli-table3": "^0.5.1",
     "clui": "^0.3.6",
     "figlet": "^1.2.3",
     "minimist": "^1.2.0",
-    "node-fetch": "^2.6.0",
-    "np": "^5.0.3"
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
     "eslint-config-google": "^0.13.0",
+    "np": "^5.0.3",
     "pre-commit": "^1.2.2"
   },
   "pre-commit": [
