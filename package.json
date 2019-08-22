@@ -1,6 +1,6 @@
 {
   "name": "empleado-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Find the latest jobs posted in emplea.do from the comfort of your terminal",
   "main": "index.js",
   "keywords": [
